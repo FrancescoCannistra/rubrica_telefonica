@@ -1,7 +1,7 @@
 rubrica = []
 
 def mostra_menu():
-    print("\nMenu Rubrica Telefonica:")
+    print("Menu Rubrica Telefonica:")
     print("1. Aggiungi contatto")
     print("2. Visualizza tutti i contatti")
     print("3. Esci")
@@ -16,7 +16,7 @@ def visualizza_contatti():
     if not rubrica:
         print("La rubrica è vuota.")
     else:
-        print("\nContatti salvati:")
+        print("Contatti salvati:")
         for contatto in rubrica:
             print(f"{contatto[0]}: {contatto[1]}")
 
