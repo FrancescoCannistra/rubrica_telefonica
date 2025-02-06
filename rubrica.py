@@ -31,7 +31,7 @@ def main():
             visualizza_contatti()
         elif scelta == "3":
             print("Arrivederci!")
-            break
+           
         else:
             print("Opzione non valida. Riprova.")
 
